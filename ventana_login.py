@@ -2,6 +2,8 @@
 import tkinter as tk
 import sqlite3
 
+#un comnetario por hacer un cambio 
+
 #creacion/conexion de la base de datos
 conn = sqlite3.connect("Jugadores.db")
 
@@ -52,4 +54,5 @@ label_mensaje.pack(pady=10)
 
 root.mainloop()
 
+#modificaria la puntuacion
 
